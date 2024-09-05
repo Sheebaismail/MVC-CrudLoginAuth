@@ -8,8 +8,7 @@ trigger:
 
 pool:
   name: Self Hosted pool  # Replace 'SelfHostedPool' with the exact name of your self-hosted agent pool
-  demands:              # Optional: specify OS or other requirements if needed
-    - Agent.OS -equals Windows
+ 
 
 
 variables:
